@@ -1,6 +1,6 @@
 # XIPTV (XTV) — eXtended IPTV Format
 
-[ English  |   [Русский](docs/README-RU.md) ]
+[ English  |   [Русский](docs/README-RU.md) | [Українська](docs/README-UK.md) ]
 
 ## Description
 
