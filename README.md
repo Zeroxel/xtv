@@ -1,15 +1,18 @@
 # XIPTV (XTV) — eXtended IPTV Format
-## Описание
 
-XIPTV (сокращённо XTV) — это расширенный формат IPTV, предназначенный для удобного управления плейлистами и потоками видео. Формат обеспечивает поддержку мультиязычности, гибкой структуры потоков, групп каналов, логотипов и интеграции с EPG.
+[ English  |   [Русский](README-RU.md) ]
 
-Формат основан на XML, что позволяет легко структурировать данные и добавлять комментарии, метаданные, потоки и мультиязычные элементы.
+## Description
 
-На данный момент структура XTV проектируется и дорабатывается, поэтому пока что мы не раскрываем окончательную схему, но известно, что она будет учитывать:
+XIPTV (abbreviated XTV) is an extended IPTV format designed for convenient management of playlists and video streams. The format provides support for multilingual channels, flexible stream structures, channel groups, logos, and EPG integration.
 
-* Мультиязычные названия и логотипы каналов.
-* Поддержку нескольких потоков для одного канала.
-* Привязку к одному или нескольким EPG.
-* Группировку каналов с возможностью управления и логотипами для групп.
+The format is based on **XML**, which allows for easy data structuring, adding comments, metadata, multiple streams, and multilingual elements.
 
-Цель формата — предоставить универсальный и гибкий способ описания IPTV-плейлистов, оставляя плеерам и редакторам XTV ответственность за отображение, выбор потока, локализацию и парсинг.
+Currently, the **structure of XTV is under development**. Key features that will be supported include:
+
+* Multilingual channel names and logos.
+* Support for multiple streams per channel.
+* Linking channels to one or more EPGs.
+* Channel grouping with customizable logos for groups.
+
+**Goal of the format:** Provide a universal and flexible way to describe IPTV playlists, leaving rendering, stream selection, localization, and parsing to XTV players and editors.
